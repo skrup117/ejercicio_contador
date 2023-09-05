@@ -1,0 +1,62 @@
+/*==================================================*/
+/*inicio adornos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --green: hsl(156, 100%, 50%);
+    --Verydarkbluemain: hsl(217, 54%, 11%);
+    --Verydarkbluecard: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+.text{
+    color: var(--Softblue);
+    font-size: 200px;
+}
+.container{
+    background-color: var(--Verydarkbluemain);
+    padding: 2rem;
+    min-width: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.product{
+    padding: 1.5rem;
+    background-color: var(--Verydarkbluecard);
+    border-radius: 1rem;
+    max-width: 700px;
+}
+.num{
+    padding: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+/*fin adornos*/
+/*==================================================*/
+
+.softblue{
+    color:var(--Softblue);
+    font-size: 200px;
+}
+
+.cyan {
+    color:var(--Cyan);
+    font-size: 200px;
+}
+
+.green{
+    color: var(--green);
+    font-size: 200px;
+}
+
